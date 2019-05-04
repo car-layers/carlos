@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CARLOS</title>
+	<link href="style.css" rel="stylesheet"/>
+	<script type="module" src="components/car.js" async></script>
+</head>
+<body>
+	<section id="window">
+		<canvas></canvas>
+	</section>
+
+	<car-control>
+		<car-wheel></car-wheel>
+	</car-control>
+
+	<script type="module">
+	 import init, {main} from './carlos/driver.js'
+	 init('carlos/driver_bg.wasm').then(m => m.main())
+	</script>
+</body>
+</html>

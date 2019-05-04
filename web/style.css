@@ -1,0 +1,14 @@
+html, body { all: unset; height: 100%; }
+body {
+	display: flex;
+	flex-direction: column;
+	background: #111;
+}
+#window {
+	flex: 3;
+	border-bottom: 2px solid #09D;
+}
+#window canvas { height: 100%; width: 100%; }
+car-control {
+	flex: 2;
+}
