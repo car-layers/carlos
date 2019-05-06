@@ -7,9 +7,12 @@
 </head>
 <body>
 	<h1>Fake car</h1>
+	<canvas id="world">
+		<img src="components/oscar.svg" />
+	</canvas>
 	<script type="module">
-	 import init, {main} from './carlos/fake_car.js'
-	 init('carlos/fake_car_bg.wasm').then(m => m.main())
+	 import init from './carlos/fake_car.js'
+	 init('carlos/fake_car_bg.wasm')
 	</script>
 </body>
 </html>
