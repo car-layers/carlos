@@ -1,0 +1,9 @@
+[package]
+name = "presence"
+version = "0.1.0"
+authors = ["Daniel Olano <danielolanoc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+carlos = { path = ".." }
+ws = "*"
