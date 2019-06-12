@@ -19,6 +19,7 @@ features = [
   "Element",
   "EventTarget",
   "Event",
+  "MessageEvent",
   "RtcPeerConnection",
   "console",
   "WebSocket",
